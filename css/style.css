@@ -2,9 +2,55 @@
     margin: 0;
     padding: 0;
 }
-
+ul{
+    list-style-type: none;
+}
 /* menu bar seth */
+.menu-bar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #666666;
+    padding: 20px;
+}
 
+.menu-bar .menu{
+    width: 70%;
+    margin: auto;
+   
+}
+
+.menu .icon-menu{
+    width: 50%;
+    float: left;
+}
+
+.menu .icon-menu ul li{
+    float: left;
+}
+
+.menu .icon-menu ul li a{
+    font-size: 20px;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.menu .txt-menu{
+    width: 50%;
+    float: left;
+}
+
+
+.menu .txt-menu ul li{
+    float: right;
+}
+
+.menu .txt-menu ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 10px;
+}
 /* body rithy */
 
 /* footer san */
