@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
+/* menu bar */
+.menu-bar{
+    width: 100%;
+    background-color: aquamarine;
+    margin: auto;
+    overflow: hidden;
+}
+
+.menu-bar ul{
+    list-style: none;
+}
+
+.menu-bar ul li{
+    float: left;
+}
+
+.menu-bar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+/* menu bar */
