@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
 /* menu bar */
 .menu-bar{
     width: 100%;
@@ -13,9 +12,6 @@
 }
 
 .menu-bar ul{
-=======
-ul{
->>>>>>> 7a758df97c8a671e775270af935f7b6708953157
     list-style: none;
 }
 
@@ -45,6 +41,7 @@ ul{
 }
 
 /* menu bar */
+<<<<<<< HEAD
 /* menu bar */
 
 
@@ -187,3 +184,5 @@ footer a:hover{
   }
 }
 /* ------------footer----------- */
+=======
+>>>>>>> 9dd659954beef37f8802295fc406192f24b35ff7
