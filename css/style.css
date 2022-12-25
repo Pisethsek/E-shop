@@ -3,28 +3,38 @@
     padding: 0;
 }
 
-/* menu bar */
-.menu-bar{
-    width: 100%;
-    background-color: aquamarine;
-    margin: auto;
-    overflow: hidden;
-}
-
-.menu-bar ul{
+ul{
     list-style: none;
 }
 
-.menu-bar ul li{
-    float: left;
+/* menu bar */
+.menu-bar{
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+    
 }
 
-.menu-bar ul li a{
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 15px;
-    color: black;
+.menu-bar .menu{
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+
 }
+<<<<<<< HEAD
+
+.menu .menu-icon{
+    width: 50%;
+    background-color: brown;
+}
+
+.menu .menu-txt{
+    width: 50%;
+    background-color: blue;
+}
+
+/* menu bar */
+=======
 /* menu bar */
 
 
@@ -168,3 +178,4 @@ footer a:hover{
 }
 
 /* ------------footer----------- */
+>>>>>>> 65f6fb8ba6d93b11d13644516b879827c2635d57
