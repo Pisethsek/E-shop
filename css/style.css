@@ -57,6 +57,7 @@ ul{
 /* footer san */
 .container{
     max-width: 1170px;
+    /* width: 70%; */
     margin: auto;
 }
 .container .row{
