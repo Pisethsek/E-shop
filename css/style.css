@@ -85,9 +85,21 @@ ul{
 .item1 img{
     width: 100px;
 }
-.txt-item2{
+
+.img-promo{
     width: 75%;
     margin: auto;
+}
+
+.txt-item2{
+    background-color: #e74c3c;
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
+}
+.txt-item2 h2{
+    color: white;
+    font-family: 'Noto Sans Khmer', sans-serif;
 }
 .container2{
     width: 75%;
