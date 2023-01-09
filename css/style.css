@@ -10,13 +10,12 @@ ul{
     width: 100%;
     overflow: hidden;
     background-color: #e74c3c;
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .menu-bar .menu{
-    width: 70%;
+    width: 80%;
     margin: auto;
-   
 }
 
 .menu .icon-menu{
@@ -53,37 +52,34 @@ ul{
 }
 
 /* body rithy */
-.section-p1{
-    padding: 40px 80px;
+.container-content{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
-#feature .fe-box{
+.item{
     width: 150px;
     text-align: center;
-    padding: 25px 0;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #cce7d0;
     border-radius: 4px;
-    margin: 15px 0;
+    margin: 15px;
+    padding: 5px 0;
 }
-#feature{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-#feature .fe-box a{
+.item a{
     text-decoration: none;
 }
-#feature .fe-box h6{
+.item h6{
     text-decoration: none;
     font-size: 15px;
     font-family: 'Noto Sans Khmer', sans-serif;
     color: black;
 }
-#feature .fe-box:hover{
+.item:hover{
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
-#feature .fe-box img{
+.item img{
     width: 100px;
 }
 
@@ -91,7 +87,6 @@ ul{
 /* footer san */
 .container{
     max-width: 1170px;
-    /* width: 70%; */
     margin: auto;
 }
 .container .row{
@@ -101,6 +96,9 @@ ul{
 footer{
     background-color:#e74c3c; 
     padding: 70px 0;
+    width: 100%;
+    height: 245px;
+    float: left;
 }
 .footer-col{
     width: 20%;
@@ -115,7 +113,8 @@ footer{
     font-size: 18px;
     color: #fff;
     text-transform: capitalize;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
+    margin-top: 15px;
     font-weight: 500;
     position: relative;
 }
