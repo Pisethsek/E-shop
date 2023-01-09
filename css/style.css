@@ -54,14 +54,14 @@ ul{
 }
 
 /* body rithy */
-.container-content{
+.container1{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
-.item{
+.item1{
     width: 150px;
     text-align: center;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
@@ -70,20 +70,52 @@ ul{
     margin: 10px;
     padding: 15px 0px;
 }
-.item a{
+.item1 a{
     text-decoration: none;
 }
-.item h6{
+.item1 h6{
     text-decoration: none;
     font-size: 12px;
     font-family: 'Noto Sans Khmer', sans-serif;
     color: black;
 }
-.item:hover{
+.item1:hover{
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
-.item img{
+.item1 img{
     width: 100px;
+}
+.txt-item2{
+    width: 75%;
+    margin: auto;
+}
+.container2{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container2 h2{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.item2{
+    width: 220px;
+    text-align: center;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 15px 0px;
+}
+.item2 p{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+.item2 span{
+    color: red;
+}
+.item2 img{
+    width: 100%;
 }
 
 
