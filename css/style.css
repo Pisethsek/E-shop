@@ -29,7 +29,7 @@ ul{
 
 .menu .icon-menu ul li a{
     font-family: 'Noto Sans Khmer', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     padding: 0 10px;
 }
@@ -48,7 +48,7 @@ ul{
     font-family: 'Noto Sans Khmer', sans-serif;
     display: block;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     padding: 0 10px;
 }
@@ -109,13 +109,13 @@ footer{
 }
 .footer-col ul li a{
     font-family: 'Noto Sans Khmer', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     color: white;
 }
 .footer-col h4{
     font-family: 'Noto Sans Khmer', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     text-transform: capitalize;
     margin-bottom: 45px;
