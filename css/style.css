@@ -133,6 +133,7 @@ ul{
 .txt-item h2{
     color: white;
     font-family: 'Noto Sans Khmer', sans-serif;
+    padding: 0px 0px 7px 10px;
 }
 .container2{
     width: 75%;
