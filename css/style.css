@@ -167,7 +167,7 @@ ul{
 
 /* footer san */
 .container{
-    max-width: 1170px;
+    width: 80%;
     margin: auto;
 }
 .container .row{
@@ -182,8 +182,8 @@ footer{
     float: left;
 }
 .footer-col{
-    width: 20%;
-    padding: 0 10px;
+    width: 24%;
+    padding: 0 9px;
 }
 .footer-col ul li a{
     font-family: 'Noto Sans Khmer', sans-serif;
