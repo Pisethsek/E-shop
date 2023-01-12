@@ -116,19 +116,19 @@ nav{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .small-promo img{
     width: 250px;
-    margin: 10px;
+    margin: 10px 0px;
     border-radius: 5px;
 }
 .big-promo{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .big-promo img{
@@ -136,12 +136,25 @@ nav{
     margin-top: 10px;
     border-radius: 5px;
 }
+.txt-item{
+    background-color: #f1f1f1;
+    width: 75%;
+    margin: auto;
+}
+.txt-item h2{
+    color: #e74c3c;
+    font-family: 'Dangrek', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+}
 .container1{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    /* background-color: #f1f1f1; */
 }
 .item1{
     width: 150px;
@@ -194,24 +207,11 @@ nav{
     margin: auto;
 }
 
-.txt-item{
-    background-color: #f1f1f1;
-    width: 75%;
-    margin: auto;
-    border-radius: 5px;
-}
-.txt-item h2{
-    color: #636e72;
-    font-family: 'Dangrek', cursive;
-    letter-spacing: 1px;
-    font-size: 20px;
-    padding: 0px 0px 0px 10px;
-}
 .container2{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .container2 h2{
@@ -223,7 +223,7 @@ nav{
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #cce7d0;
     border-radius: 4px;
-    margin: 10px;
+    margin: 10px 0;
     padding: 15px 0px;
 }
 .item2 p{
