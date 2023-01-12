@@ -65,8 +65,8 @@ nav li a{
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 15px;
-    display: inline-block;
-    padding: 0 20px;
+    display: inline-block;  
+    padding: 0px 15px;
 }
 nav li a:hover{
     color: #e74c3c;
@@ -75,19 +75,16 @@ nav{
     background-color: #f1f1f1;
     display: flex;
     justify-content: space-between;
+    /* margin: 0 10px; */
     /* padding: 20px 0px; */
 }
-nav .logo{
-    font-family: 'Noto Sans Khmer', sans-serif;
-    color: #636e72;
-    padding: 20px 20px;
-}
+
 .btnlogin{
     /* margin-right: 10px; */
-    border: 1px solid white;
+    border: 1px solid #e74c3c;
 }
 .btnlogin a{
-    padding: 18px 20px;
+    padding: 20px 15px;
 }
 .btnlogin a:hover{
     background-color: #e74c3c;
@@ -98,9 +95,9 @@ nav .logo{
 .stiky{
     position: sticky;
     top: 0;
-    /*padding: 5px;
-    background-color: #cae8ca;
-    border: 2px solid #4CAF50;*/
+    /* padding: 5px; */
+    background-color: #f1f1f1;
+    border: 2px solid #e74c3c;
 }
 
 /* body rithy */
