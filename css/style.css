@@ -60,13 +60,13 @@ nav ul li{
     list-style-type: none; 
 }
 nav li a{
-    font-family: 'Noto Sans Khmer', sans-serif;
+    font-family: 'Dangrek', cursive;
     color: #636e72;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 15px;
     display: inline-block;  
-    padding: 0px 15px;
+    padding: 15px 15px;
 }
 nav li a:hover{
     color: #e74c3c;
@@ -84,18 +84,28 @@ nav{
     border: 1px solid #f1f1f1;
 }
 .btnlogin a{
-    padding: 20px 15px;
+    padding: 10px 10px;
 }
 .btnlogin a:hover{
     background-color: #e74c3c;
     color: white;
     transition: 0.4s;
 }
+.btnsignup{
+    border: 1px solid #ffffff;
+    background-color: #e74c3c;
+}
+.btnsignup a{
+    padding: 10px 10px;
+    color: white;
+}
+.btnsignup a:hover{
+    color: white;
+}
 
 .stiky{
     position: sticky;
     top: 0;
-    /* padding: 5px; */
     background-color: #f1f1f1;
     border: 2px solid #e74c3c;
 }
@@ -111,6 +121,18 @@ nav{
 .small-promo img{
     width: 250px;
     margin: 10px;
+    border-radius: 5px;
+}
+.big-promo{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.big-promo img{
+    width: 360px;
+    margin-top: 10px;
     border-radius: 5px;
 }
 .container1{
@@ -135,7 +157,7 @@ nav{
 .item1 h6{
     text-decoration: none;
     font-size: 12px;
-    font-family: 'Noto Sans Khmer', sans-serif;
+    font-family: 'Dangrek', cursive;
     color: black;
 }
 .item1:hover{
@@ -160,7 +182,7 @@ nav{
     padding: 30px;
 }
 .content-support .item-support p{
-    font-family: 'Noto Sans Khmer', sans-serif;
+    font-family: 'Dangrek', cursive;
 }
 .content-support .item-support span{
     color: rgb(162, 162, 162);
@@ -179,8 +201,9 @@ nav{
 }
 .txt-item h2{
     color: white;
-    font-family: 'Noto Sans Khmer', sans-serif;
-    padding: 0px 0px 7px 10px;
+    font-family: 'Dangrek', cursive;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
 }
 .container2{
     width: 75%;
@@ -190,7 +213,7 @@ nav{
     flex-wrap: wrap;
 }
 .container2 h2{
-    font-family: 'Noto Sans Khmer', sans-serif;
+    font-family: 'Dangrek', cursive;
 }
 .item2{
     width: 220px;
@@ -202,7 +225,7 @@ nav{
     padding: 15px 0px;
 }
 .item2 p{
-    font-family: 'Noto Sans Khmer', sans-serif;
+    font-family: 'Dangrek', cursive;
 }
 .item2 span{
     color: red;
