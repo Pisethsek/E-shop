@@ -116,7 +116,7 @@ nav{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .small-promo img{
@@ -128,7 +128,7 @@ nav{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .big-promo img{
@@ -211,7 +211,7 @@ nav{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .container2 h2{
