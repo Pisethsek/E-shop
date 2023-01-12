@@ -70,6 +70,7 @@ nav li a{
 }
 nav li a:hover{
     color: #e74c3c;
+    transition: 0.4s;
 }
 nav{
     background-color: #f1f1f1;
@@ -194,14 +195,15 @@ nav{
 }
 
 .txt-item{
-    background-color: #e74c3c;
+    background-color: #f1f1f1;
     width: 75%;
     margin: auto;
     border-radius: 5px;
 }
 .txt-item h2{
-    color: white;
+    color: #636e72;
     font-family: 'Dangrek', cursive;
+    letter-spacing: 1px;
     font-size: 20px;
     padding: 0px 0px 0px 10px;
 }
