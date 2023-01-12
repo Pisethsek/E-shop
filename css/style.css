@@ -53,6 +53,17 @@ ul{
     padding: 0 10px;
 }
 
+/* Logo */
+
+.logo img{
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* Navbar */
+
 nav ul{
     display: inline-block;
 }
@@ -79,12 +90,6 @@ nav{
     /* margin: 0 10px; */
     /* padding: 20px 0px; */
 }
-.logo img{
-    width: 80px;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-top: 5px;
-}
 
 .btnlogin{
     /* margin-right: 10px; */
@@ -101,6 +106,7 @@ nav{
 .btnsignup{
     border: 1px solid #ffffff;
     background-color: #e74c3c;
+    margin-right: 20px;
 }
 .btnsignup a{
     padding: 10px 10px;
@@ -125,6 +131,7 @@ nav{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+/* Promotion poster */
 .small-promo img{
     width: 250px;
     margin: 10px 0px;
@@ -142,6 +149,8 @@ nav{
     margin-top: 10px;
     border-radius: 5px;
 }
+
+/* text item */
 .txt-item{
     background-color: #f1f1f1;
     width: 75%;
