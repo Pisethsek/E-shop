@@ -87,7 +87,7 @@ nav{
     background-color: #f1f1f1;
     display: flex;
     justify-content: space-between;
-    /* margin: 0 10px; */
+    /* margin: 0px; */
     /* padding: 20px 0px; */
 }
 
@@ -128,8 +128,9 @@ nav{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 /* Promotion poster */
 .small-promo img{
@@ -141,8 +142,9 @@ nav{
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .big-promo img{
     width: 360px;
@@ -152,12 +154,11 @@ nav{
 
 /* text item */
 .txt-item{
-    background-color: #f1f1f1;
     width: 75%;
     margin: auto;
 }
 .txt-item h2{
-    color: #e74c3c;
+    color: #000000;
     font-family: 'Dangrek', cursive;
     letter-spacing: 1px;
     font-size: 20px;
@@ -169,6 +170,7 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row;
     /* background-color: #f1f1f1; */
 }
 .item1{
@@ -197,7 +199,7 @@ nav{
 }
 
 .content-support{
-    width: 75%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -228,6 +230,7 @@ nav{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .container2 h2{
     font-family: 'Dangrek', cursive;
