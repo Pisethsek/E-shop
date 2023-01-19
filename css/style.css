@@ -219,11 +219,15 @@ nav{
     color: rgb(162, 162, 162);
 }
 
-.img-promo{
-    width: 100%;
+.container2{
+    width: 75%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: #f1f1f1; */
 }
-
 .item2{
     width: 220px;
     text-align: center;
@@ -232,9 +236,11 @@ nav{
     border-radius: 4px;
     margin: 10px 0;
     padding: 15px 0px;
+  
 }
 .item2 p{
     font-family: 'Dangrek', cursive;
+    text-decoration: none;
 }
 .item2 span{
     color: red;
