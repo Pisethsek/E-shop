@@ -82,6 +82,7 @@ nav li a:hover {
   color: #e74c3c;
   transition: 0.4s;
 }
+
 nav {
   background-color: #f1f1f1;
   display: flex;
@@ -105,7 +106,7 @@ nav {
 .btnsignup {
   border: 1px solid #ffffff;
   background-color: #274c77;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 .btnsignup a {
   padding: 10px 10px;
@@ -113,6 +114,16 @@ nav {
 }
 .btnsignup a:hover {
   color: white;
+}
+.shopping {
+  width: 100%;
+}
+.btn-shopping {
+  width: 20px;
+  padding: 0;
+  margin: 0 10px;
+  color: #000000;
+  cursor: pointer;
 }
 
 .stiky {
@@ -144,20 +155,20 @@ nav {
   color: #ffffff;
   font-family: "Dangrek", cursive;
 }
-::placeholder{
-    color: #ffffff;
-    font-family: "Dangrek", cursive;
+::placeholder {
+  color: #ffffff;
+  font-family: "Dangrek", cursive;
 }
-.search-bar button img{
-    width: 25px;
+.search-bar button img {
+  width: 25px;
 }
-.search-bar button{
-    border: 0;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: #274c77;
-    cursor: pointer;
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #274c77;
+  cursor: pointer;
 }
 .big-promo {
   width: 75%;
