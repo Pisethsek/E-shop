@@ -294,10 +294,19 @@ a {
 }
 .item2 span {
   color: red;
+  font-size: 20px;
+}
+.item2 del {
+  font-size: 20px;
+  color: black;
 }
 .item2 img {
   width: 100%;
 
+}
+.item2 i{
+  color: #e74c3c;
+  font-size: 10px;
 }
 
 /* footer san */
