@@ -88,7 +88,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  /* margin: 0px; */
+  margin: 0px;
   /* padding: 20px 0px; */
 }
 .btnlogin {
@@ -123,18 +123,19 @@ nav {
 .btn-shopping a:hover{
   color: #636e72;
 }
-.stiky {
+.sticky {
   position: sticky;
-  top: 0;
+  top: 0px;
+  margin: 0;
   background-color: #f1f1f1;
-  border: 2px solid #274c77;
+  border-bottom: 1px solid #274c77;
 }
 /* search */
 .search-bar {
   /* width: 100%; */
   margin: 10px auto;
   height: 20px;
-  max-width: 700px;
+  max-width: 500px;
   background: #274c77;
   display: flex;
   align-items: center;
@@ -153,7 +154,7 @@ nav {
   font-family: "Dangrek", cursive;
 }
 ::placeholder {
-  color: #ffffff;
+  color: #f1f1f1;
   font-family: "Dangrek", cursive;
 }
 .search-bar button img {
@@ -177,6 +178,7 @@ nav {
 }
 .big-promo img {
   width: 370px;
+  margin: 5px 0px;
   border-radius: 5px;
 }
 .small-promo {
@@ -190,7 +192,7 @@ nav {
 /* Promotion poster */
 .small-promo img {
   width: 275px;
-  margin: 10px 0px;
+  margin: 5px 0px;
   border-radius: 5px;
 }
 
@@ -280,6 +282,9 @@ nav {
   margin: 10px 0;
   padding: 15px 0px;
 }
+.item2:hover {
+  box-shadow: 0px 0px 0px 1px #dbdbdb;
+}
 .item2 p {
   font-family: "Dangrek", cursive;
   color: #24262b;
@@ -292,6 +297,7 @@ a {
 }
 .item2 img {
   width: 100%;
+
 }
 
 /* footer san */
