@@ -91,7 +91,6 @@ nav {
   /* margin: 0px; */
   /* padding: 20px 0px; */
 }
-
 .btnlogin {
   /* margin-right: 10px; */
   border: 1px solid #f1f1f1;
@@ -117,12 +116,12 @@ nav {
   color: white;
 }
 .btn-shopping a{
-  color: #274c77;
+  color: #636e72;
   padding: 0 0px;
   margin-right: 7px;
 }
 .btn-shopping a:hover{
-  color: #274c77;
+  color: #636e72;
 }
 .stiky {
   position: sticky;
