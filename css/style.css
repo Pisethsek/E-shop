@@ -474,7 +474,7 @@ footer {
   place-content: center;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 576px) {
   .container-ph{
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 1fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr;
