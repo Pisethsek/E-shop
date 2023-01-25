@@ -312,31 +312,31 @@ a {
 }
 
 /* footer san */
-.footer{
+.footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #e74c3c;
 }
-.container{
+.container {
   max-width: 1170px;
   margin: auto;
 }
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
 }
-ul{
+ul {
   list-style: none;
 }
-.footer{
+.footer {
   background-color: #e74c3c;
   padding: 70px 0;
 }
-.footer-col{
+.footer-col {
   width: 25%;
 }
-.footer-col h4{
+.footer-col h4 {
   font-family: "Noto Sans Khmer", sans-serif;
   font-size: 15px;
   color: #ffffff;
@@ -344,9 +344,9 @@ ul{
   margin-bottom: 30px;
   position: relative;
 }
-.footer-col h4::before{
+.footer-col h4::before {
   font-family: "Noto Sans Khmer", sans-serif;
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -355,10 +355,10 @@ ul{
   box-sizing: border-box;
   width: 50px;
 }
-.footer-col ul li:not(last-child){
+.footer-col ul li:not(last-child) {
   margin-bottom: 10px;
 }
-.footer-col ul li a{
+.footer-col ul li a {
   font-family: "Noto Sans Khmer", sans-serif;
   font-size: 15px;
   text-transform: capitalize;
@@ -369,39 +369,40 @@ ul{
   display: block;
   transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
   color: #24262b;
   padding-left: 8px;
 }
-.footer-col .social-links a{
+.footer-col .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
   background: rgba(255, 255, 255, 0.2);
-  margin-right:0 10px 10px 0;
+  margin-right: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
+.footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
 }
 /* responsive */
-@media(max-width: 767px){
-  .footer-col{
+@media (max-width: 767px) {
+  .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
 }
-@media(max-width: 574px){
-  .footer-col{
+@media (max-width: 574px) {
+  .footer-col {
     width: 100%;
   }
 }
 
+/* Phone */
 .container-ph {
   width: 75%;
   margin: auto;
@@ -418,7 +419,8 @@ ul{
 }
 .main h2 {
   float: left;
-  margin-left: 20px;
+  margin-left: 60px;
+  padding: 20px 0;
   font-family: sans-serif;
   font-size: 40px;
 }
@@ -441,6 +443,7 @@ ul{
   color: black;
   font-size: 15px;
   font-family: sans-serif;
+  text-transform: uppercase;
 }
 .content1 {
   grid-area: content1;
@@ -488,6 +491,65 @@ ul{
   place-content: center;
 }
 
+.item-category {
+  background-color: #ffffff;
+  width: 250px;
+  text-align: center;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 15px 0px;
+}
+.item-category:hover {
+  box-shadow: 1px 1px 1px 2px #dbdbdb;
+  transition: 0.5s;
+}
+.item-category p {
+  font-family: "Dangrek", cursive;
+  color: #24262b;
+}
+a {
+  text-decoration: none;
+}
+.item-category span {
+  color: red;
+  font-size: 20px;
+}
+.item-category del {
+  font-size: 20px;
+  color: black;
+}
+.item-category img {
+  width: 100%;
+}
+.item-category i {
+  color: #e74c3c;
+  font-size: 10px;
+}
+.center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
 @media only screen and (min-width: 576px) {
   .container-ph {
     grid-gap: 0px 10px;
@@ -499,6 +561,13 @@ ul{
       "content5 content6"
       "content7 content8"
       "content9 content9";
+  }
+  .main h2 {
+    float: left;
+    margin-left: 80px;
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 40px;
   }
 }
 
@@ -512,12 +581,33 @@ ul{
       "content4 content5 content6"
       "content7 content8 content9";
   }
+  .item-category {
+    width: 220px;
+  }
+  .main h2 {
+    float: left;
+    margin-left: 100px;
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 40px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .container-ph {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "main main main main" "sidebar content1 content2 content3" "sidebar content4 content5 content6"
-    "sidebar content7 content8 content9";
+    grid-template-areas:
+      "main main main main" "sidebar content1 content2 content3" "sidebar content4 content5 content6"
+      "sidebar content7 content8 content9";
+  }
+  .item-category {
+    width: 250px;
+  }
+  .main h2 {
+    float: left;
+    margin-left: 190px;
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 40px;
   }
 }
