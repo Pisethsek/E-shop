@@ -79,11 +79,11 @@ nav li a {
   padding: 15px 10px;
 }
 nav li a:hover {
-  color: #274c77;
+  color: #5f9de4;
   transition: 0.4s;
 }
 nav li a.active {
-  color: #274c77;
+  color: #5f9de4;
 }
 nav {
   background-color: #f1f1f1;
@@ -93,52 +93,28 @@ nav {
   margin: 0px;
   /* padding: 20px 0px; */
 }
-.btnlogin {
-  /* margin-right: 10px; */
-  border: 1px solid #f1f1f1;
-}
-.btnlogin a {
-  padding: 5px 10px;
-}
-.btnlogin a:hover {
-  background-color: #274c77;
-  color: white;
-  transition: 0.4s;
-}
-.btnsignup {
-  border: 1px solid #ffffff;
-  background-color: #274c77;
-  margin-right: 5px;
-}
-.btnsignup a {
-  padding: 5px 10px;
-  color: white;
-}
-.btnsignup a:hover {
-  color: white;
-}
 .btn-shopping a {
-  color: #000000;
+  color: #000000 !important;
   padding: 0 0px;
   margin-right: 7px;
 }
 .btn-shopping a:hover {
   color: #636e72;
 }
-.sticky {
+/* .sticky {
   position: sticky;
   top: 0px;
   margin: 0;
   background-color: #f1f1f1;
   border-bottom: 1px solid #274c77;
-}
+} */
 /* search */
 .search-bar {
   /* width: 100%; */
   margin: 10px auto;
   height: 20px;
   max-width: 500px;
-  background: #274c77;
+  background: #5f9de4;
   display: flex;
   align-items: center;
   border-radius: 60px;
@@ -167,7 +143,7 @@ nav {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  background-color: #274c77;
+  background-color: #5f9de4;
   cursor: pointer;
 }
 .big-promo {
@@ -316,7 +292,7 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #e74c3c;
+  background-color: #5f9de4;
 }
 .container {
   max-width: 1170px;
@@ -330,7 +306,7 @@ ul {
   list-style: none;
 }
 .footer {
-  background-color: #e74c3c;
+  background-color: #5f9de4;
   padding: 70px 0;
 }
 .footer-col {
@@ -403,13 +379,25 @@ ul {
 }
 
 /* Phone */
-.container-ph {
+.container-category {
   width: 75%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   /* grid-template-rows: 0.3fr 0.8fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr; */
-  grid-template-areas: "main" "sidebar" "content1" "content2" "content3" "content4" "content5" "content6" "content7" "content8" "content9";
+  grid-template-areas: 
+  "main" 
+  "sidebar" 
+  "content1" 
+  "content2" 
+  "content3" 
+  "content4" 
+  "content5" 
+  "content6" 
+  "content7" 
+  "content8" 
+  "content9"
+  "pagination";
 }
 .main {
   grid-area: main;
@@ -490,6 +478,9 @@ ul {
   display: grid;
   place-content: center;
 }
+.pagination {
+  grid-area: pagination;
+}
 
 .item-category {
   background-color: #ffffff;
@@ -527,31 +518,40 @@ a {
   color: #e74c3c;
   font-size: 10px;
 }
-.center {
-  text-align: center;
-  margin: 20px 0;
-}
 
 .pagination {
   display: inline-block;
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .pagination a {
   color: black;
   float: left;
-  padding: 8px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   transition: background-color 0.3s;
   border: 1px solid #ddd;
   margin: 0 4px;
+  border-radius: 20px;
+}
+.pagination a i{
+  padding: 0px 0px;
 }
 
 .pagination a:hover {
-  background-color: #ddd;
+  background-color: #5f9de4;
+  color: #ffffff;
+}
+.pagination a.active {
+  background-color: #5f9de4;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 576px) {
-  .container-ph {
+  .container-category {
     grid-gap: 0px 10px;
     grid-template-areas:
       "main main"
@@ -560,7 +560,8 @@ a {
       "content3 content4"
       "content5 content6"
       "content7 content8"
-      "content9 content9";
+      "content9 content9"
+      "pagination pagination";
   }
   .main h2 {
     float: left;
@@ -569,17 +570,24 @@ a {
     font-family: sans-serif;
     font-size: 40px;
   }
+  .pagination{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .container-ph {
+  .container-category {
     grid-gap: 0px 10px;
     grid-template-areas:
       "main main main"
       "sidebar sidebar sidebar"
       "content1 content2 content3"
       "content4 content5 content6"
-      "content7 content8 content9";
+      "content7 content8 content9"
+      "pagination pagination pagination";
   }
   .item-category {
     width: 220px;
@@ -591,14 +599,20 @@ a {
     font-family: sans-serif;
     font-size: 40px;
   }
+  .pagination{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-  .container-ph {
+  .container-category {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "main main main main" "sidebar content1 content2 content3" "sidebar content4 content5 content6"
-      "sidebar content7 content8 content9";
+      "sidebar content7 content8 content9" "sidebar pagination pagination pagination";
   }
   .item-category {
     width: 250px;
@@ -609,5 +623,11 @@ a {
     padding: 20px 0;
     font-family: sans-serif;
     font-size: 40px;
+  }
+  .pagination{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
