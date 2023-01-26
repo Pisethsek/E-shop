@@ -191,7 +191,7 @@ nav {
   width: 75%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
   /* background-color: #f1f1f1; */
@@ -380,6 +380,7 @@ ul {
   }
 }
 
+
 /* Phone */
 .container-category {
   width: 75%;
@@ -388,7 +389,6 @@ ul {
   grid-template-columns: repeat(1, 1fr);
   /* grid-template-rows: 0.3fr 0.8fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr; */
   grid-template-areas: 
-  "main" 
   "sidebar" 
   "content1" 
   "content2" 
@@ -552,36 +552,42 @@ a {
   color: #ffffff;
 }
 
+/* small device */
 @media only screen and (min-width: 576px) {
-  .container-category {
-    grid-gap: 0px 10px;
-    grid-template-areas:
-      "main main"
-      "sidebar sidebar"
-      "content1 content2"
-      "content3 content4"
-      "content5 content6"
-      "content7 content8"
-      "content9 content9"
-      "pagination pagination";
-  }
-  .main h2 {
-    float: left;
-    margin-left: 80px;
-    padding: 20px 0;
-    font-family: sans-serif;
-    font-size: 40px;
-  }
-  .pagination{
-    margin: 20px;
+  .search-bar {
+    /* width: 100%; */
+    margin: 10px auto;
+    height: 20px;
+    max-width: 500px;
+    background: #5f9de4;
     display: flex;
     align-items: center;
-    justify-content: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+  }
+  .item1 {
+    width: 120px;
+  }
+  .container-category{
+    margin: auto;
+    grid-gap: 0px 10px;
+    grid-template-areas:
+    "sidebar sidebar"
+    "content1 content2"
+    "content3 content4"
+    "content5 content6"
+    "content7 content8"
+    "content9 content9"
+    "pagination pagination"
   }
 }
 
+/* medium device*/
 @media only screen and (min-width: 768px) {
+
   .container-category {
+    margin: auto;
     grid-gap: 0px 10px;
     grid-template-areas:
       "main main main"
@@ -609,8 +615,10 @@ a {
   }
 }
 
+/* large device */
 @media only screen and (min-width: 992px) {
   .container-category {
+    margin: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "main main main main" "sidebar content1 content2 content3" "sidebar content4 content5 content6"
