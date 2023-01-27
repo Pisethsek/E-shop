@@ -236,7 +236,7 @@ nav {
   padding: 30px;
 }
 .content-support .item-support p {
-  font-family: "Dangrek", cursive;
+  font-family: "Kantumruy", sans-serif;
 }
 .content-support .item-support span {
   color: rgb(162, 162, 162);
@@ -265,7 +265,7 @@ nav {
   transition: 0.5s;
 }
 .item2 p {
-  font-family: "Dangrek", cursive;
+  font-family: "Kantumruy", sans-serif;
   color: #24262b;
 }
 a {
@@ -384,7 +384,7 @@ ul {
 
 .container-category {
   width: 75%;
-  margin: auto;
+  margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   /* grid-template-rows: 0.3fr 0.8fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr; */
@@ -491,16 +491,39 @@ ul {
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 10px 0;
-  padding: 15px 0px;
+  padding: 5px 0px;
+  position: relative;
+  overflow: hidden;
 }
 .item-category:hover {
   box-shadow: 1px 1px 1px 1px #dbdbdb;
   transition: 0.5s;
+  color: #e74c3c;
 }
 .item-category p {
-  font-family: "Dangrek", cursive;
+  font-family: "Kantumruy", sans-serif;
   color: #24262b;
+ 
 }
+
+.item-category .detial{
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  top: 100%;
+  background-color: #5f9de4;
+  position: absolute;
+  color: white;
+  transition: top .3s;
+}
+.item-category .detial p{
+  text-align: left;
+  font-size: 13px;
+}
+.item-category:hover .detial{
+  top: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -513,7 +536,7 @@ a {
   color: black;
 }
 .item-category img {
-  width: 100%;
+  width: 250px;
 }
 .item-category i {
   color: #e74c3c;
@@ -554,8 +577,8 @@ a {
 /* small device */
 @media only screen and (min-width: 576px) {
   .container-category{
-    margin: auto;
-    grid-gap: 0px 10px;
+    margin: 20px auto;
+    grid-gap: 5px;
     grid-template-areas:
     "sidebar sidebar"
     "content1 content2"
@@ -565,14 +588,17 @@ a {
     "content9 content9"
     "pagination pagination"
   }
+  .item-category img{
+    width: 200px;
+  }
 }
 
 /* medium device*/
 @media only screen and (min-width: 768px) {
 
   .container-category {
-    margin: auto;
-    grid-gap: 0px 10px;
+    margin: 20px auto;
+    grid-gap: 5px;
     grid-template-areas:
       "main main main"
       "sidebar sidebar sidebar"
@@ -602,8 +628,9 @@ a {
 /* large device */
  @media only screen and (min-width: 992px) {
   .container-category {
-    margin: auto;
+    margin: 20px auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-gap: 20px; */
     grid-template-areas:
       "main main main main" "sidebar content1 content2 content3" "sidebar content4 content5 content6"
       "sidebar content7 content8 content9" "sidebar pagination pagination pagination";
