@@ -381,7 +381,7 @@ ul {
 }
 
 
-/* Phone */
+
 .container-category {
   width: 75%;
   margin: auto;
@@ -485,14 +485,17 @@ ul {
 }
 
 .item-category {
+  width: 100%;
   background-color: #ffffff;
-  width: 250px;
   text-align: center;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 10px 0;
   padding: 15px 0px;
+}
+.item-category img{
+  width: 100%;
 }
 .item-category:hover {
   box-shadow: 1px 1px 1px 2px #dbdbdb;
