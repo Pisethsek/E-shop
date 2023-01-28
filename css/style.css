@@ -628,7 +628,7 @@ a {
  @media only screen and (min-width: 992px) {
   .container-category {
     margin: 20px auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     /* grid-gap: 20px; */
     grid-template-areas:
       "main main main main" "sidebar content1 content2 content3" "sidebar content4 content5 content6"
