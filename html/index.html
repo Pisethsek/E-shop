@@ -20,7 +20,10 @@
       href="https://fonts.googleapis.com/css2?family=Kantumruy:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Electronic Store - Home</title>
     <link rel="icon" href="../images/logo.png" />
   </head>
@@ -71,7 +74,7 @@
             <li><a href="./index.html">Home</a></li>
           </ul>
           <ul>
-            <li><a href="./phone.html" >PHONE</a></li>
+            <li><a href="./phone.html">PHONE</a></li>
           </ul>
           <ul>
             <li><a href="./laptop.html">LAPTOP</a></li>
@@ -481,20 +484,40 @@
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <a href=""><img src="../images/get_it_on_IOS.png" alt=""></a>
-            <a href=""><img src="../images/get_it_on_android.png" alt=""></a>
+            <a href=""><img src="../images/get_it_on_IOS.png" alt="" /></a>
+            <a href=""><img src="../images/get_it_on_android.png" alt="" /></a>
           </div>
         </div>
       </div>
     </footer>
+    <button class="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></button>
     <script>
-      var Item = document.querySelectorAll('a');
+      var Item = document.querySelectorAll("a");
       var Currentlocation = location.href;
-      for(var i = 0; i < Item.length; i++){
-        if(Item[i].href === Currentlocation){
+      for (var i = 0; i < Item.length; i++) {
+        if (Item[i].href === Currentlocation) {
           Item[i].className = "active";
         }
       }
+
+      const scrollbtn = document.querySelector(".scroll-to-top");
+      const refreshButtonVisibility = () => {
+        if (document.documentElement.scrollTop <= 300) {
+          scrollbtn.style.display = "none";
+        } else {
+          scrollbtn.style.display = "block";
+        }
+      };
+      refreshButtonVisibility();
+
+      scrollbtn.addEventListener("click", () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+
+      document.addEventListener("scroll", (e) => {
+        refreshButtonVisibility();
+      });
     </script>
   </body>
 </html>
