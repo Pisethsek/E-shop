@@ -295,7 +295,7 @@ a {
   background-color: #5f9de4;
 }
 .container {
-  max-width: 1170px;
+  width: 75%;
   margin: auto;
 }
 .row {
@@ -364,6 +364,10 @@ ul {
 .footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
+}
+.footer-col img{
+  width: 150px;
+  margin-top: 10px;
 }
 /* responsive */
 @media (max-width: 767px) {
@@ -435,6 +439,25 @@ ul {
   font-family: sans-serif;
   text-transform: uppercase;
 }
+.sidebar a h4:hover{
+  color: #274c77;
+  transition: 0.4s;
+}
+.sidebar a{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+  display: block;
+  margin: 10px 20px;
+}
+.sidebar a:hover{
+  color: #5f9de4;
+  transition: 0.4s;
+}
+.sidebar a.active{
+  color: #5f9de4;
+}
 .content1 {
   grid-area: content1;
   display: grid;
@@ -503,7 +526,7 @@ ul {
 .item-category p {
   font-family: 'Poppins', sans-serif;
   color: #24262b;
- 
+
 }
 
 .item-category .detial{
@@ -514,7 +537,7 @@ ul {
   background-color: #5f9de4;
   position: absolute;
   color: white;
-  transition: top .3s;
+  transition: top .5s;
 }
 .item-category .detial p{
   text-align: left;
