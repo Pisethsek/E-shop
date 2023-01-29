@@ -97,13 +97,8 @@ nav {
   border-bottom: 2px solid #5f9de4;
   /* padding: 20px 0px; */
 }
-.btn-shopping a {
-  color: #000000 !important;
-  padding: 0 0px;
-  margin-right: 7px;
-}
-.btn-shopping a:hover {
-  color: #636e72;
+nav i{
+  margin-right: 10px;
 }
 /* .sticky {
   position: sticky;
