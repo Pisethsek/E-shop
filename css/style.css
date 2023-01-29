@@ -270,17 +270,19 @@ nav {
   transition: 0.5s;
 }
 .item2 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #24262b;
 }
 a {
   text-decoration: none;
 }
 .item2 span {
-  color: red;
+  font-family: 'Dosis', sans-serif;
+  color: #5f9de4;
   font-size: 20px;
 }
 .item2 del {
+  font-family: 'Dosis', sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -288,7 +290,7 @@ a {
   width: 100%;
 }
 .item2 i {
-  color: #e74c3c;
+  color: #5f9de4;
   font-size: 10px;
 }
 
