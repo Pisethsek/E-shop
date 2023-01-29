@@ -28,7 +28,7 @@ ul {
 }
 
 .menu .icon-menu ul li a {
-  font-family: "Noto Sans Khmer", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #fff;
   padding: 0 10px;
@@ -44,7 +44,7 @@ ul {
 }
 
 .menu .txt-menu ul li a {
-  font-family: "Noto Sans Khmer", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: block;
   text-decoration: none;
   font-size: 15px;
@@ -317,7 +317,8 @@ ul {
 }
 .footer-col h4 {
   font-family: 'Dosis', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
+  letter-spacing: 1px;
   color: #ffffff;
   margin-bottom: 30px;
   position: relative;
@@ -370,7 +371,7 @@ ul {
 }
 .footer-col img{
   width: 150px;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 .policy{
   padding: 15px;
