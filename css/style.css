@@ -58,7 +58,7 @@ ul {
   width: 80px;
   border-radius: 10px;
   margin-left: 20px;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 /* Navbar */
@@ -304,6 +304,7 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -50px;
 }
 ul {
   list-style: none;
