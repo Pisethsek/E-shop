@@ -527,7 +527,7 @@ ul {
   color: #e74c3c;
 }
 .item-category p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #24262b;
 
 }
@@ -541,6 +541,7 @@ ul {
   position: absolute;
   color: white;
   transition: top .5s;
+  opacity: 90%;
 }
 .item-category .detial p{
   text-align: left;
@@ -553,10 +554,12 @@ a {
   text-decoration: none;
 }
 .item-category span {
-  color: red;
+  font-family: 'Dosis', sans-serif;
+  color: #5f9de4;
   font-size: 20px;
 }
 .item-category del {
+  font-family: 'Dosis', sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -564,7 +567,7 @@ a {
   width: 250px;
 }
 .item-category i {
-  color: #e74c3c;
+  color: #5f9de4;
   font-size: 10px;
 }
 
