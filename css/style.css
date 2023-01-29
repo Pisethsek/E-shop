@@ -439,8 +439,16 @@ ul {
   margin: 20px;
   color: black;
   font-size: 20px;
-  border-bottom: 3px solid #5f9de4;
+  border-bottom: 1px solid #5f9de4;
   font-family: sans-serif;
+}
+.sidebar h4{
+   font-family: 'Dosis', sans-serif;
+   font-size: 20px;
+   border-left:5px solid #3e75b4;
+   background-color: #5f9de4;
+   margin-top: 50px;
+   padding: 10px;
 }
 
 .sidebar a{
@@ -456,6 +464,17 @@ ul {
   transition: 0.4s;
 }
 .sidebar a.active{
+  color: #5f9de4;
+}
+.sidebar-buttom a{
+  display: flex;
+}
+.sidebar-buttom p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  margin: 5px;
+}
+.sidebar-buttom span{
   color: #5f9de4;
 }
 .content1 {
@@ -526,7 +545,6 @@ ul {
 .item-category p {
   font-family: 'Dosis', sans-serif;
   color: #24262b;
-
 }
 
 .item-category .detial{
