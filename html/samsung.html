@@ -406,7 +406,7 @@
           </div>
         </div>
       </footer>
-
+      <button class="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></button>
     <script>
       var Item = document.querySelectorAll('a');
       var Currentlocation = location.href;
@@ -415,6 +415,25 @@
           Item[i].className = "active";
         }
       }
+
+      const scrollbtn = document.querySelector(".scroll-to-top");
+      const refreshButtonVisibility = () => {
+        if (document.documentElement.scrollTop <= 300) {
+          scrollbtn.style.display = "none";
+        } else {
+          scrollbtn.style.display = "block";
+        }
+      };
+      refreshButtonVisibility();
+
+      scrollbtn.addEventListener("click", () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+
+      document.addEventListener("scroll", (e) => {
+        refreshButtonVisibility();
+      });
     </script>
   </body>
 </html>
