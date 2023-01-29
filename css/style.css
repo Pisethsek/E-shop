@@ -436,11 +436,14 @@ ul {
 }
 
 .sidebar h3 {
-  margin: 20px;
+  /* margin: 20px; */
+  padding: 10px;
   color: black;
   font-size: 20px;
-  border-bottom: 1px solid #5f9de4;
-  font-family: sans-serif;
+  /* border-bottom: 1px solid #5f9de4; */
+  border-left: 5px solid #3e75b4;
+  background-color: #72b0f8;
+  font-family: 'Dosis', sans-serif;
 }
 .sidebar h4{
    font-family: 'Dosis', sans-serif;
@@ -473,6 +476,9 @@ ul {
   font-family: 'Dosis', sans-serif;
   font-size: 17px;
   margin: 5px;
+}
+.sidebar-buttom img{
+  border: 1px solid #dedddd;
 }
 .sidebar-buttom span{
   color: #5f9de4;
