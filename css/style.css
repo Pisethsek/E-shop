@@ -9,7 +9,7 @@ ul {
 .menu-bar {
   width: 100%;
   overflow: hidden;
-  background-color: #e74c3c;
+  background-color: #3e75b4;
   padding: 5px 0px;
 }
 
@@ -185,7 +185,7 @@ nav {
 }
 .txt-item h2 {
   color: #000000;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   text-transform: uppercase;
   padding: 0px 0px 0px 10px;
 }
@@ -211,9 +211,9 @@ nav {
   text-decoration: none;
 }
 .item1 h6 {
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 12px;
-  font-family: "Kantumruy", sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: black;
 }
 .item1:hover {
@@ -318,12 +318,11 @@ ul {
   font-family: 'Dosis', sans-serif;
   font-size: 18px;
   color: #ffffff;
-  text-transform: capitalize;
   margin-bottom: 30px;
   position: relative;
 }
 .footer-col h4::before {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   content: "";
   position: absolute;
   left: 0;
@@ -370,7 +369,7 @@ ul {
 }
 .footer-col img{
   width: 150px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .policy{
   padding: 15px;
