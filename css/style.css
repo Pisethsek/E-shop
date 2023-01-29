@@ -86,7 +86,7 @@ nav li a:hover {
   transition: 0.4s;
 }
 nav li a.active {
-  color: #5f9de4;
+  color:#5f9de4;
 }
 nav {
   background-color: #f1f1f1;
@@ -185,13 +185,12 @@ nav {
 .txt-item {
   width: 75%;
   margin: auto;
-  background-color: #f1f1f1;
+  padding: 5px 0;
+  border-bottom: 2px solid #5f9de4;
 }
 .txt-item h2 {
   color: #000000;
   font-family: 'Dosis', sans-serif;
-  text-transform: uppercase;
-  padding: 0px 0px 0px 10px;
 }
 .container1 {
   width: 75%;
@@ -271,17 +270,19 @@ nav {
   transition: 0.5s;
 }
 .item2 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #24262b;
 }
 a {
   text-decoration: none;
 }
 .item2 span {
-  color: red;
+  font-family: 'Dosis', sans-serif;
+  color: #5f9de4;
   font-size: 20px;
 }
 .item2 del {
+  font-family: 'Dosis', sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -289,7 +290,7 @@ a {
   width: 100%;
 }
 .item2 i {
-  color: #e74c3c;
+  color: #5f9de4;
   font-size: 10px;
 }
 
@@ -430,7 +431,7 @@ ul {
   float: left;
   margin-left: 60px;
   padding: 20px 0;
-  font-family: sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 40px;
 }
 
@@ -443,21 +444,10 @@ ul {
   margin: 20px;
   color: black;
   font-size: 20px;
-  border-bottom: 2px solid #274c77;
+  border-bottom: 3px solid #5f9de4;
   font-family: sans-serif;
 }
 
-.sidebar h4 {
-  margin: 20px;
-  color: black;
-  font-size: 15px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-}
-.sidebar a h4:hover{
-  color: #274c77;
-  transition: 0.4s;
-}
 .sidebar a{
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
@@ -539,7 +529,7 @@ ul {
   color: #e74c3c;
 }
 .item-category p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: #24262b;
 
 }
@@ -553,6 +543,7 @@ ul {
   position: absolute;
   color: white;
   transition: top .5s;
+  opacity: 90%;
 }
 .item-category .detial p{
   text-align: left;
@@ -565,10 +556,12 @@ a {
   text-decoration: none;
 }
 .item-category span {
-  color: red;
+  font-family: 'Dosis', sans-serif;
+  color: #5f9de4;
   font-size: 20px;
 }
 .item-category del {
+  font-family: 'Dosis', sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -576,7 +569,7 @@ a {
   width: 250px;
 }
 .item-category i {
-  color: #e74c3c;
+  color: #5f9de4;
   font-size: 10px;
 }
 
@@ -651,7 +644,7 @@ a {
     float: left;
     margin-left: 100px;
     padding: 20px 0;
-    font-family: sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 40px;
   }
   .pagination{
@@ -679,7 +672,7 @@ a {
     float: left;
     margin-left: 190px;
     padding: 20px 0;
-    font-family: sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 40px;
   }
   .pagination{
