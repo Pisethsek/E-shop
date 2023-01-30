@@ -764,3 +764,25 @@ a {
     margin-bottom: 80px;
 }
 /* about us */
+
+/* contact us */
+.contact-us{
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+.contact-us h1{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-us h2{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #09A59A;;
+}
+.contact-us .form{
+  width: 100%;
+}
