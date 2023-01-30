@@ -722,18 +722,27 @@ a {
   margin: auto;
   overflow: hidden;
 }
+.shop-txt{
+  margin: 10px 0;
+}
+.shop-txt h3{
+  font-family: "Poppins", sans-serif;
+}
+
+.shop-txt p{
+  font-family: "Dosis", sans-serif;
+}
 .about-us h1 {
   text-align: center;
-  padding: 20px;
   font-family: "Dosis", sans-serif;
 }
 
 .about-us .map iframe {
   width: 100%;
-  margin: auto;
+  margin: 20px auto;
 }
 .shop-photo {
-  margin-top: 40px;
+  margin-top: 10px;
   width: 50%;
   float: left;
 }
@@ -741,21 +750,9 @@ a {
 .shop-photo img {
   width: 100%;
   float: left;
+  margin-bottom: 10px;
 }
 
-.shop-txt {
-  margin-top: 40px;
-  width: 50%;
-  float: left;
-  overflow: hidden;
-  padding: 50px 20px;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  text-align: center;
-  margin-bottom: 80px;
-  display: grid;
-}
 /* about us */
 
 /* contact us */
