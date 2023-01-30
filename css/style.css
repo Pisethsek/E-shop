@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kantumruy:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ ul {
 }
 
 .menu .icon-menu ul li a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   color: #fff;
   padding: 0 10px;
@@ -47,7 +47,7 @@ ul {
 }
 
 .menu .txt-menu ul li a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: block;
   text-decoration: none;
   font-size: 15px;
@@ -72,7 +72,7 @@ nav ul li {
   list-style-type: none;
 }
 nav li a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #000000;
@@ -86,7 +86,7 @@ nav li a:hover {
   transition: 0.4s;
 }
 nav li a.active {
-  color:#5f9de4;
+  color: #5f9de4;
 }
 nav {
   background-color: #f1f1f1;
@@ -97,7 +97,7 @@ nav {
   border-bottom: 2px solid #5f9de4;
   /* padding: 20px 0px; */
 }
-nav i{
+nav i {
   margin-right: 10px;
 }
 /* .sticky {
@@ -129,11 +129,11 @@ nav i{
   padding: 24px 5px;
   font-size: 15px;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 ::placeholder {
   color: #f1f1f1;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .search-bar button img {
   width: 25px;
@@ -185,7 +185,7 @@ nav i{
 }
 .txt-item h2 {
   color: #000000;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 .container1 {
   width: 75%;
@@ -211,7 +211,7 @@ nav i{
 .item1 h6 {
   /* text-decoration: none; */
   font-size: 12px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   color: black;
 }
 .item1:hover {
@@ -265,19 +265,19 @@ nav i{
   transition: 0.5s;
 }
 .item2 p {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #24262b;
 }
 a {
   text-decoration: none;
 }
 .item2 span {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #5f9de4;
   font-size: 20px;
 }
 .item2 del {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -315,7 +315,7 @@ ul {
   width: 25%;
 }
 .footer-col h4 {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
   color: #ffffff;
@@ -323,7 +323,7 @@ ul {
   position: relative;
 }
 .footer-col h4::before {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   content: "";
   position: absolute;
   left: 0;
@@ -337,7 +337,7 @@ ul {
   margin-bottom: 10px;
 }
 .footer-col ul li a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   text-transform: capitalize;
   color: #ffffff;
@@ -368,17 +368,17 @@ ul {
   color: #24262b;
   background-color: #ffffff;
 }
-.footer-col img{
+.footer-col img {
   width: 150px;
   margin-top: 7px;
 }
-.policy{
+.policy {
   padding: 15px;
   background-color: #3e75b4;
 }
-.policy p{
+.policy p {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 /* responsive */
 @media (max-width: 767px) {
@@ -395,26 +395,24 @@ ul {
   }
 }
 
-
-
 .container-category {
   width: 75%;
   margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   /* grid-template-rows: 0.3fr 0.8fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr; */
-  grid-template-areas: 
-  "sidebar" 
-  "content1" 
-  "content2" 
-  "content3" 
-  "content4" 
-  "content5" 
-  "content6" 
-  "content7" 
-  "content8" 
-  "content9"
-  "pagination";
+  grid-template-areas:
+    "sidebar"
+    "content1"
+    "content2"
+    "content3"
+    "content4"
+    "content5"
+    "content6"
+    "content7"
+    "content8"
+    "content9"
+    "pagination";
 }
 .main {
   grid-area: main;
@@ -426,7 +424,7 @@ ul {
   float: left;
   margin-left: 60px;
   padding: 20px 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 40px;
 }
 
@@ -443,44 +441,44 @@ ul {
   /* border-bottom: 1px solid #5f9de4; */
   border-left: 5px solid #3e75b4;
   background-color: #72b0f8;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
-.sidebar h4{
-   font-family: 'Dosis', sans-serif;
-   font-size: 20px;
-   border-left:5px solid #3e75b4;
-   background-color: #5f9de4;
-   margin-top: 50px;
-   padding: 10px;
+.sidebar h4 {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  border-left: 5px solid #3e75b4;
+  background-color: #5f9de4;
+  margin-top: 50px;
+  padding: 10px;
 }
 
-.sidebar a{
-  font-family: 'Poppins', sans-serif;
+.sidebar a {
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   color: black;
   display: block;
   margin: 10px 20px;
 }
-.sidebar a:hover{
+.sidebar a:hover {
   color: #5f9de4;
   transition: 0.4s;
 }
-.sidebar a.active{
+.sidebar a.active {
   color: #5f9de4;
 }
-.sidebar-buttom a{
+.sidebar-buttom a {
   display: flex;
 }
-.sidebar-buttom p{
-  font-family: 'Dosis', sans-serif;
+.sidebar-buttom p {
+  font-family: "Dosis", sans-serif;
   font-size: 17px;
   margin: 5px;
 }
-.sidebar-buttom img{
+.sidebar-buttom img {
   border: 1px solid #dedddd;
 }
-.sidebar-buttom span{
+.sidebar-buttom span {
   color: #5f9de4;
 }
 .content1 {
@@ -549,11 +547,11 @@ ul {
   color: #e74c3c;
 }
 .item-category p {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #24262b;
 }
 
-.item-category .detial{
+.item-category .detial {
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -561,13 +559,13 @@ ul {
   background-color: #5f9de4;
   position: absolute;
   color: white;
-  transition: top .5s;
+  transition: top 0.5s;
   opacity: 90%;
 }
-.item-category .detial p{
+.item-category .detial p {
   text-align: left;
 }
-.item-category:hover .detial{
+.item-category:hover .detial {
   top: 0;
 }
 
@@ -575,12 +573,12 @@ a {
   text-decoration: none;
 }
 .item-category span {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #5f9de4;
   font-size: 20px;
 }
 .item-category del {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -610,7 +608,7 @@ a {
   margin: 0 4px;
   border-radius: 20px;
 }
-.pagination a i{
+.pagination a i {
   padding: 0px 0px;
 }
 
@@ -625,26 +623,25 @@ a {
 
 /* small device */
 @media only screen and (min-width: 576px) {
-  .container-category{
+  .container-category {
     margin: 20px auto;
     grid-gap: 5px;
     grid-template-areas:
-    "sidebar sidebar"
-    "content1 content2"
-    "content3 content4"
-    "content5 content6"
-    "content7 content8"
-    "content9 content9"
-    "pagination pagination"
+      "sidebar sidebar"
+      "content1 content2"
+      "content3 content4"
+      "content5 content6"
+      "content7 content8"
+      "content9 content9"
+      "pagination pagination";
   }
-  .item-category img{
+  .item-category img {
     width: 200px;
   }
 }
 
 /* medium device*/
 @media only screen and (min-width: 768px) {
-
   .container-category {
     margin: 20px auto;
     grid-gap: 5px;
@@ -663,10 +660,10 @@ a {
     float: left;
     margin-left: 100px;
     padding: 20px 0;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 40px;
   }
-  .pagination{
+  .pagination {
     margin: 20px;
     display: flex;
     align-items: center;
@@ -675,7 +672,7 @@ a {
 }
 
 /* large device */
- @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .container-category {
     margin: 20px auto;
     grid-template-columns: repeat(4, 1fr);
@@ -691,18 +688,18 @@ a {
     float: left;
     margin-left: 190px;
     padding: 20px 0;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-size: 40px;
   }
-  .pagination{
+  .pagination {
     margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-} 
+}
 
-.scroll-to-top{
+.scroll-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -714,12 +711,10 @@ a {
   background-color: #5f9de4;
   color: white;
 }
-.scroll-to-top:hover{
+.scroll-to-top:hover {
   color: #000000;
   transition: 0.5s;
 }
-
-
 
 /* about us  */
 .about-us {
@@ -727,62 +722,60 @@ a {
   margin: auto;
   overflow: hidden;
 }
-.about-us h1{
+.about-us h1 {
   text-align: center;
   padding: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
-.about-us .map iframe{
+.about-us .map iframe {
   width: 100%;
-  height: 500px;
   margin: auto;
 }
-.shop-photo{
+.shop-photo {
   margin-top: 40px;
   width: 50%;
   float: left;
-
 }
 
-.shop-photo img{
+.shop-photo img {
   width: 100%;
-  height: 100%;
   float: left;
 }
 
-.shop-txt{
+.shop-txt {
   margin-top: 40px;
   width: 50%;
   float: left;
   overflow: hidden;
   padding: 50px 20px;
   box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 80px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 80px;
+  display: grid;
 }
 /* about us */
 
 /* contact us */
-.contact-us{
+.contact-us {
   width: 75%;
   margin: auto;
   overflow: hidden;
 }
-.contact-us h1{
+.contact-us h1 {
   text-align: center;
   padding: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.contact-us h2{
+.contact-us h2 {
   text-align: center;
   padding: 10px;
-  font-family: 'Poppins', sans-serif;
-  color: #09A59A;;
+  font-family: "Poppins", sans-serif;
+  color: #09a59a;
 }
-.contact-us .form{
+.contact-us .form {
   width: 100%;
 }
