@@ -763,16 +763,44 @@ a {
 }
 .contact-us h1 {
   text-align: center;
-  padding: 20px;
-  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-family: "Dosis", sans-serif;
 }
-
 .contact-us h2 {
   text-align: center;
-  padding: 10px;
-  font-family: "Poppins", sans-serif;
-  color: #09a59a;
+  font-family: "Dosis", sans-serif;
+  color: #5f9de4;
 }
-.contact-us .form {
+.contact-us .inputbox{
+  width: 60%;
+  margin: 10px auto;
+}
+.contact-us input{
   width: 100%;
+  height: 30px;
+  outline: none;
+}
+.contact-us textarea{
+  width: 100%;
+  height: 100px;
+  outline: none;
+}
+.inputbox textarea::placeholder{
+  color: #5f9de4;
+  font-family: "Poppins", sans-serif;
+}
+.inputbox input::placeholder{
+  color: #5f9de4;
+  font-family: "Poppins", sans-serif;
+}
+.inputbox span{
+  font-family: "Poppins", sans-serif;
+}
+button{
+  width: 60px;
+  height: 30px;
+  border: 0;
+  color: #ffffff;
+  background-color: #5f9de4;
+  cursor: pointer;
 }
