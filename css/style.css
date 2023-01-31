@@ -295,6 +295,7 @@ a {
   padding: 0;
   box-sizing: border-box;
   background-color: #5f9de4;
+  border-top: 2px solid #3e75b4;
 }
 .container {
   width: 75%;
