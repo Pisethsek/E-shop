@@ -12,7 +12,7 @@ ul {
 .menu-bar {
   width: 100%;
   overflow: hidden;
-  background-color: #064073;
+  background-color: #3e75b4;
   padding: 5px 0px;
 }
 
@@ -94,7 +94,7 @@ nav {
   justify-content: space-between;
   flex-direction: row;
   margin: 0px;
-  border-bottom: 2px solid #064073;
+  border-bottom: 2px solid #3e75b4;
   /* padding: 20px 0px; */
 }
 nav i {
@@ -295,7 +295,7 @@ a {
   padding: 0;
   box-sizing: border-box;
   background-color: #5f9de4;
-  border-top: 2px solid #064073;
+  border-top: 2px solid #3e75b4;
 }
 .container {
   width: 75%;
@@ -375,7 +375,7 @@ ul {
 }
 .policy {
   padding: 15px;
-  background-color: #064073;
+  background-color: #3e75b4;
 }
 .policy p {
   text-align: center;
