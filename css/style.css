@@ -664,7 +664,7 @@ a {
   width: 200px;
   padding: 10px 0;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
   border: 2px dashed #cce7d0;
   border-radius: 10px;
   font-family: "Dosis", sans-serif;
@@ -675,7 +675,7 @@ a {
 }
 .box-txt i {
   font-size: 15px;
-  margin-top: 20px;
+  margin-top: 15px;
   color: #5f9de4;
 }
 .box-txt button {
@@ -699,7 +699,7 @@ a {
   transition: 0.5s;
 }
 .box-txt hr {
-  margin-top: 10px;
+  margin-top: 15px;
   width: 370px;
 }
 
@@ -805,6 +805,7 @@ a {
   font-size: 20px;
   background-color: #5f9de4;
   color: white;
+  cursor: pointer;
 }
 .scroll-to-top:hover {
   color: #000000;
@@ -899,4 +900,33 @@ a {
   color: #ffffff;
   background-color: #5f9de4;
   cursor: pointer;
+}
+
+.checkout{
+  width: 75%;
+  height: 280px;
+  margin: auto;
+}
+.checkout p{
+  font-family: "Dosis", sans-serif;
+  margin-top: 40px;
+}
+.checkout button{
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border: 0;
+  background-color: #5f9de4;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: 0.4s;
+  font-family: "Poppins", sans-serif;
+}
+.checkout button:hover{
+  background-color: #3e75b4;
+}
+.checkout img{
+  width: 150px;
+  margin-top: 20px;
 }
