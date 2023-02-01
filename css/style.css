@@ -631,19 +631,22 @@ a {
   grid-template-areas:
     "box-img"
     "box-txt"
-    "sidebar"
+    "sidebar";
 }
 
-.box-img{
+.box-img {
   grid-area: box-img;
+  height: 340px;
+  display: grid;
+  place-content: center;
 }
-.box-txt{
+.box-txt {
   grid-area: box-txt;
 }
 /* .box-img{
   border: 2px solid #5f9de4;
 } */
-.box-img img{
+.box-img img {
   width: 300px;
   background-color: #ffffff;
   text-align: center;
@@ -651,30 +654,31 @@ a {
   border-radius: 4px;
   padding: 20px 0px;
 }
-.box-txt{
+.box-txt {
   margin-left: 20px;
 }
-.box-txt h2{
+.box-txt h2 {
   font-family: "Dosis", sans-serif;
 }
-.box-txt p{
-  width: 240px;
+.box-txt p {
+  width: 200px;
   padding: 10px 0;
   text-align: center;
   margin-top: 20px;
   border: 2px dashed #cce7d0;
   border-radius: 10px;
+  font-family: "Dosis", sans-serif;
 }
-.box-txt span{
-  margin-left:100px;
+.box-txt span {
+  margin-left: 100px;
   color: #5f9de4;
 }
-.box-txt i{
+.box-txt i {
   font-size: 15px;
   margin-top: 20px;
   color: #5f9de4;
 }
-.box-txt button{
+.box-txt button {
   width: 110px;
   height: 50px;
   margin-top: 50px;
@@ -683,16 +687,22 @@ a {
   border: 0;
   font-size: 15px;
   background-color: #72b0f8;
+  color: #000000;
 }
-.box-txt hr{
-  margin-top: 10px;
-  width: 370px;
-}
-.box-txt button i{
+.box-txt button i {
   margin: 0;
   font-size: 15px;
   color: #000000;
 }
+.box-txt button:hover{
+  background-color: #3e75b4;
+  transition: 0.5s;
+}
+.box-txt hr {
+  margin-top: 10px;
+  width: 370px;
+}
+
 /*****************/
 /* small device */
 /*****************/
@@ -779,8 +789,7 @@ a {
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-rows: 0.3fr 0.8fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr; */
     grid-template-areas:
-      /* "main mian" */
-      "sidebar box-img box-txt box-txt ";
+      /* "main mian" */ " box-img box-txt box-txt sidebar ";
   }
 }
 
