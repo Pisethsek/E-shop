@@ -621,9 +621,82 @@ a {
   background-color: #5f9de4;
   color: #ffffff;
 }
+/* detail phone */
+.container-detail {
+  width: 75%;
+  margin: 20px auto;
+  display: grid;
+  /* grid-template-columns: repeat(1, 1fr); */
+  /* grid-template-rows: 0.3fr 0.8fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr; */
+  grid-template-areas:
+    "box-img"
+    "box-txt"
+    "sidebar"
+}
 
+.box-img{
+  grid-area: box-img;
+}
+.box-txt{
+  grid-area: box-txt;
+}
+/* .box-img{
+  border: 2px solid #5f9de4;
+} */
+.box-img img{
+  width: 300px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  padding: 20px 0px;
+}
+.box-txt{
+  margin-left: 20px;
+}
+.box-txt h2{
+  font-family: "Dosis", sans-serif;
+}
+.box-txt p{
+  width: 240px;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 20px;
+  border: 2px dashed #cce7d0;
+  border-radius: 10px;
+}
+.box-txt span{
+  margin-left:100px;
+  color: #5f9de4;
+}
+.box-txt i{
+  font-size: 15px;
+  margin-top: 20px;
+  color: #5f9de4;
+}
+.box-txt button{
+  width: 110px;
+  height: 50px;
+  margin-top: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  font-size: 15px;
+  background-color: #72b0f8;
+}
+.box-txt hr{
+  margin-top: 10px;
+  width: 370px;
+}
+.box-txt button i{
+  margin: 0;
+  font-size: 15px;
+  color: #000000;
+}
+/*****************/
 /* small device */
-@media only screen and (min-width: 576px) {
+/*****************/
+@media only screen and (min-width: 540px) {
   .container-category {
     margin: 20px auto;
     grid-gap: 5px;
@@ -698,8 +771,20 @@ a {
     align-items: center;
     justify-content: center;
   }
+  .container-detail {
+    width: 75%;
+    margin: 10px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 0.3fr 0.8fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr; */
+    grid-template-areas:
+      /* "main mian" */
+      "sidebar box-img box-txt box-txt ";
+  }
 }
 
+/*start scroll to top */
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
@@ -716,6 +801,7 @@ a {
   color: #000000;
   transition: 0.5s;
 }
+/* end scroll to top */
 
 /* about us  */
 .about-us {
@@ -723,14 +809,14 @@ a {
   margin: auto;
   overflow: hidden;
 }
-.shop-txt{
+.shop-txt {
   margin: 10px 0;
 }
-.shop-txt h3{
+.shop-txt h3 {
   font-family: "Poppins", sans-serif;
 }
 
-.shop-txt p{
+.shop-txt p {
   font-family: "Dosis", sans-serif;
 }
 .about-us h1 {
@@ -772,32 +858,32 @@ a {
   font-family: "Dosis", sans-serif;
   color: #5f9de4;
 }
-.contact-us .inputbox{
+.contact-us .inputbox {
   width: 60%;
   margin: 10px auto;
 }
-.contact-us input{
+.contact-us input {
   width: 100%;
   height: 30px;
   outline: none;
 }
-.contact-us textarea{
+.contact-us textarea {
   width: 100%;
   height: 100px;
   outline: none;
 }
-.inputbox textarea::placeholder{
+.inputbox textarea::placeholder {
   color: #5f9de4;
   font-family: "Poppins", sans-serif;
 }
-.inputbox input::placeholder{
+.inputbox input::placeholder {
   color: #5f9de4;
   font-family: "Poppins", sans-serif;
 }
-.inputbox span{
+.inputbox span {
   font-family: "Poppins", sans-serif;
 }
-button{
+.inputbox button {
   width: 60px;
   height: 30px;
   border: 0;
