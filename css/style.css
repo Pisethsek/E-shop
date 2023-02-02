@@ -660,7 +660,7 @@ a {
 .box-txt h2 {
   font-family: "Dosis", sans-serif;
 }
-.box-txt p {
+.box-txt .promotion{
   width: 200px;
   padding: 10px 0;
   text-align: center;
@@ -668,6 +668,10 @@ a {
   border: 2px dashed #cce7d0;
   border-radius: 10px;
   font-family: "Dosis", sans-serif;
+}
+.box-txt p{
+  font-family: "Dosis", sans-serif;
+  padding: 7px;
 }
 .box-txt span {
   margin-left: 100px;
@@ -681,7 +685,7 @@ a {
 .box-txt button {
   width: 110px;
   height: 50px;
-  margin-top: 50px;
+  margin-top: 10px;
   border-radius: 30px;
   cursor: pointer;
   border: 0;
