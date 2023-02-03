@@ -191,7 +191,7 @@ nav i {
   width: 75%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
   /* background-color: #f1f1f1; */
@@ -246,7 +246,7 @@ nav i {
   width: 75%;
   margin: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
   /* background-color: #f1f1f1; */
