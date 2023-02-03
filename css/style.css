@@ -181,11 +181,13 @@ nav i {
   width: 75%;
   margin: auto;
   padding: 5px 0;
-  border-bottom: 2px solid #5f9de4;
+  border-left: 5px solid #064073;
+  background-color: #5f9de4;
 }
 .txt-item h2 {
   color: #000000;
   font-family: "Dosis", sans-serif;
+  padding-left: 7px;
 }
 .container1 {
   width: 75%;
