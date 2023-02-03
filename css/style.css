@@ -165,7 +165,7 @@ nav i {
   width: 75%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
 }
