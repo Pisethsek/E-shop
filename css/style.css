@@ -181,8 +181,8 @@ nav i {
   width: 75%;
   margin: auto;
   padding: 5px 0;
-  border-left: 5px solid #064073;
-  background-color: #5f9de4;
+  border-left: 7px solid #3e75b4;
+  /* background-color: #5f9de4; */
 }
 .txt-item h2 {
   color: #000000;
@@ -998,4 +998,16 @@ th:last-child{
   color: #ffffff;
   background-color: #5f9de4;
   transition: 0.5s;
+}
+
+/* ========== Custom scrollbar ========== */
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: #5f9de4;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#642bff, #ff22e6);
+
 }
